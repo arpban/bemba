@@ -15,7 +15,7 @@
 			</div>
 			<div id="menu" class="pull-right">
 				<a href="#" onclick="scrollpage('.two')" class="menu-item active">ABOUT</a>
-				<a href="#" class="menu-item">COURSE TIMELINE</a>
+				<a href="#" onclick="scrollpage('.schedule')" class="menu-item">COURSE TIMELINE</a>
 				<a href="#" class="menu-item">PLACEMENTS</a>
 				<!-- <a href="#" class="menu-item"></a> -->
 				<a href="#" onclick="scrollpage('.five')" class="menu-item">CONTACT</a>
@@ -27,8 +27,9 @@
 			</div>
 			<div class="dropdown-menu" class="pull-left">
 				<a href="#" onclick="scrollpage('.two')" class="menu-item active" >ABOUT</a>
-				<a href="#" onclick="scrollpage('.three')" class="menu-item" >12 ZONES</a>
-				<a href="#" onclick="scrollpage('.four')" class="menu-item" >CONTACT</a>
+				<a href="#" onclick="scrollpage('.schedule')" class="menu-item" >COURSE TIMELINE</a>
+				<a href="#" onclick="scrollpage('.schedule')" class="menu-item" >PLACEMENTS</a>
+				<a href="#" onclick="scrollpage('.five')" class="menu-item" >CONTACT</a>
 			</div>
 		</div>
 		
@@ -230,7 +231,7 @@
 			<div class="slide one">
 				<div class="content">
 					<div class="header">BE+MBA</div>
-					<div class="header sub">THE INTEGRATED COURSE</div>
+					<div class="header sub">AN INTEGRATED COURSE</div>
 					<div class="sub-header">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet rhoncus massa. Proin purus arcu, facilisis finibus metus at.</div>
 					<button class="btn1" onclick="scrollpage('.two')">Learn More</button>
 				</div>
@@ -238,7 +239,7 @@
 			<div class="slide two">
 				<div class="content">
 					<header>About</header>
-					<h2>Here comes a sub heading. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet rhoncus massa.</h2>
+					<h2>Here comes a sub heading. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
 					<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet rhoncus massa. Proin purus arcu, facilisis finibus metus at, viverra lacinia leoLorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet rhoncus massa. Proin purus arcu, facilisis finibus metus at, viverra lacinia leo</p>
 					<ul>
 						<li>Lorem ipsum dolor sit amet consectetur adipiscing elit</li>
@@ -252,10 +253,86 @@
 			<div class="slide three">
 				<div class="content">
 					<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet rhoncus massa. Proin purus arcu, facilisis finibus metus at, viverra lacinia leo. Nam maximus lacus in aliquet rutrum. Nunc faucibus eleifend molestie. Curabitur sollicitudin efficitur mattis. Duis vel sapien porttitor, rutrum turpis sed, facilisis elit. Phasellus est ex, iaculis a leo a, viverra rutrum ante. Vestibulum vitae sem elit. Quisque in laoreet est, eu facilisis velit. Nullam at ante dolor. Donec sit amet rhoncus leo. <br>Suspendisse aliquet tortor a libero efficitur molestie. Suspendisse a nisl ac eros efficitur lobortis et eu orci. Duis sed felis in nibh mattis consequat sed ac orci. Ut tellus nibh, porttitor eget faucibus aliquam, tempor eu justo.</p>
-					<button class="icon" onclick="scrollpage('.four')">
+					<button class="icon" onclick="scrollpage('.schedule')">
 						<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-down"><line x1="12" y1="4" x2="12" y2="20"></line><polyline points="18 14 12 20 6 14"></polyline></svg>
 					</button>
 				</div>
+			</div>
+			<div class="slide schedule">
+				<div class="wrap schedule-page">
+					<h2>The Course Timeline</h2>
+					<ul class="timeline">
+						<!-- Item 1 -->
+						<li>
+							<div class="direction-r">
+								<div class="flag-wrapper">
+									<span class="flag">1st Year</span>
+									<span class="time-wrapper"><span class="time">BE</span></span>
+								</div>
+								<div class="desc">At Thapar University, Patiala</div>
+							</div>
+						</li>
+						
+						<!-- Item 2 -->
+						<li>
+							<div class="direction-l">
+								<div class="flag-wrapper">
+									<span class="flag">2nd Year</span>
+									<span class="time-wrapper"><span class="time">BE</span></span>
+								</div>
+								<div class="desc">At Thapar University</div>
+							</div>
+						</li>
+						<!-- Item 3 -->
+						<li>
+							<div class="direction-r">
+								<div class="flag-wrapper">
+									<span class="flag">3rd Year</span>
+									<span class="time-wrapper"><span class="time">BE</span></span>
+								</div>
+								<div class="desc">At Thapar University</div>
+							</div>
+						</li>
+
+						<li>
+							<div class="direction-l">
+								<div class="flag-wrapper">
+									<span class="flag">7th Semester</span>
+									<span class="time-wrapper"><span class="time">MBA</span></span>
+								</div>
+								<div class="desc">At LM Thapar School Of Management</div>
+							</div>
+						</li>
+						<li>
+							<div class="direction-r">
+								<div class="flag-wrapper">
+									<span class="flag">8th Semester</span>
+									<span class="time-wrapper"><span class="time">MBA</span></span>
+								</div>
+								<div class="desc">At LM Thapar School Of Management</div>
+							</div>
+						</li>
+						<li>
+							<div class="direction-l">
+								<div class="flag-wrapper">
+									<span class="flag">9th Semester</span>
+									<span class="time-wrapper"><span class="time">MBA</span></span>
+								</div>
+								<div class="desc">At LM Thapar School Of Management</div>
+							</div>
+						</li>
+						<li>
+							<div class="direction-r">
+								<div class="flag-wrapper">
+									<span class="flag">Training</span>
+									<span class="time-wrapper"><span class="time">10th Semester</span></span>
+								</div>
+							</div>
+						</li>
+						
+						
+					</ul>
+				</div><!-- .wrap -->
 			</div>
 			<div class="slide four">
 				<div class="content">
@@ -268,6 +345,7 @@
 			<div class="slide five">
 				<div class="content">
 					<header>Contact</header>
+					<div class="sub-header">Feel free to contact us for any queries</div>
 					<div class="form-group">
 						<form action="#">
 							<input type="text" name="" placeholder="Name">
@@ -281,7 +359,7 @@
 		</div>
 		
 		<footer>
-			<div class="text">&copy thapar university</div>
+			<div class="text">&copy Thapar University</div>
 			<div class="icons"></div>
 		</footer>
 		
@@ -289,7 +367,7 @@
 		src="https://code.jquery.com/jquery-3.2.1.min.js"
 		integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
 		crossorigin="anonymous"></script>
-		<script type="text/javascript">
+		<!-- <script type="text/javascript">
 			function initMap() {
 		        var map = new google.maps.Map(document.getElementById('map'), {
 		        	center: {lat: -34.397, lng: 150.644},
@@ -313,9 +391,9 @@
 		        	map: map
 		        });
 		    }
-		</script>
-		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCu0lIyrrbuInKalaiHkHlQzWgpeJFamNk&callback=initMap"
-    	async defer></script>
+		</script> -->
+		<!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCu0lIyrrbuInKalaiHkHlQzWgpeJFamNk&callback=initMap"
+    	async defer></script> -->
     	<script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
 	    <script>
 			window.sr = ScrollReveal({reset: true});
