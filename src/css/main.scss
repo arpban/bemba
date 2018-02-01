@@ -289,7 +289,7 @@ form{
     }
     header{
         font-family: $lato;
-        font-size: 35px;
+        font-size: 33px;
         margin-top: 20px;
     }
     h2{
@@ -373,6 +373,13 @@ form{
 
 .slide.two{
     position: relative;
+    .img-wrap{
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        border-radius: 6px;
+        overflow: hidden;
+    }
 }
 
 .slide.two, .slide.four{
@@ -386,7 +393,7 @@ form{
         }
     }
 }
-.slide.three{
+.slide.three, .slide.six{
     background-color: $darkblue;
     color: $white;
 }
@@ -415,6 +422,26 @@ form{
     }
 }
 
+.slide.seven{
+    min-height: unset;
+    background: darkred;
+    color: white;
+
+}
+
+blockquote{
+    font-size: 17px;
+    font-style: italic;
+    border-left: 2px solid lightgray;
+    margin: 20px 10px;
+    padding: 20px;
+    width: 80%;
+}
+
+b{
+    font-family: 'Raleway', 'Lato', 'Segoe UI', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+}
 
 #map{
     min-height: 500px;
@@ -437,6 +464,29 @@ footer{
     color: $white;
     width: 100%;
     padding: 25px;
+    .f_wrap_1{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 20px 0px 30px 0px;
+        color: lightgray;
+        font-size: 14px;
+        .col{
+            padding-right: 30px;
+            b,span{
+                display: block;
+                padding: 2px 0px;
+            }
+        }
+    }
+    .f_wrap_2{
+        display: flex;
+        justify-content: space-between;
+    }
+    .icons{
+        a{
+            margin-left: 6px;
+        }
+    }
 }
 
 @media (max-width: 900px){
